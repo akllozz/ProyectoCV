@@ -90,22 +90,31 @@ h5{
   color:#AF7Ad5;
 }
 
+/* ABOUT ME */
+
+.me-custom{
+  background-color: #101018;
+}
+
+h3{
+  margin: 0;
+}
 /* EDUCACION */
 
 .edu-custom{
-  background-color: #101018;
+
 }
 
 /* EXPERIENCIA */
 
 .exp-custom{
+  background-color: #101018;
 
-  
 }
 
 
 /* FOOTER */
 
 footer{
-  background-color: #101018;
+
 }
