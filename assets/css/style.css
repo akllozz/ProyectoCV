@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #AF7Ad5;
+}
+
+body {
+  background-color: #171720;
+  color: #e6e6fa;
+  
+}
+
+span{
+  color:#AF7Ad5;
+}
+
+/* NAV BAR */
+
+.navbar {
+    height: 4.5rem;
+    background-color: #101018;
+  }
+
+.navbar-nav{
+    display: flex;
+    gap: 1.5rem;
+    border-right: 1px solid #000;
+    color: #e6e6fa;
+
+}
+.navbar-collapse{
+  display: flex;
+  gap: 1.25rem;
+  background-color: #101018;
+  padding: 1rem;
+}
+
+.btn-outline-light {
+  border-color: #AF7Ad5;
+  color: #e6e6fa;
+}
+
+.btn-outline-light:hover {
+  background-color: #171720;
+  border-color: #AF7Ad5;
+}
+
+/* HERO SECTION */
+
+main{
+}
+
+.profile{
+  vertical-align: middle;
+  border-radius: 45%;
+}
+
+.lilac-text{
+  color:#AF7Ad5;
+}
+
+.edu-custom{
+  background-color: #101018;
+}
+
+footer{
+  background-color: #101018;
+}
