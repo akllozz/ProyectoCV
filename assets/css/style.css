@@ -1,18 +1,14 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
 
 a{
   text-decoration: none;
   color: #AF7Ad5;
 }
-
 body {
-  background-color: #171720;
+  background-color: #13131a;
   color: #e6e6fa;
-  
+  font-family: 'Dosis', 'Arial', 'Helvetica';
 }
 
 span{
@@ -22,22 +18,34 @@ span{
 /* NAV BAR */
 
 .navbar {
-    height: 4.5rem;
+    height: 5rem;
     background-color: #101018;
+    font-size: 1.25rem;
   }
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
 
 .navbar-nav{
     display: flex;
     gap: 1.5rem;
     border-right: 1px solid #000;
     color: #e6e6fa;
-
 }
+
 .navbar-collapse{
   display: flex;
   gap: 1.25rem;
   background-color: #101018;
   padding: 1rem;
+}
+
+.btn-port{
+  margin-right: 2rem;
+  font-size: 1.25rem;
 }
 
 .btn-outline-light {
@@ -52,21 +60,51 @@ span{
 
 /* HERO SECTION */
 
-main{
-}
-
 .profile{
   vertical-align: middle;
   border-radius: 45%;
+}
+
+.title{
+margin-top: 10rem;
+}
+
+h4{
+  font-size: 1.10rem;
+  letter-spacing: .125rem;
+}
+
+h1{
+  font-size: 4.6875rem;
+  margin: 1.25rem 0 1.25rem;
+  font-weight: 600;
+  letter-spacing: .0625rem;
+}
+
+h5{
+  font-size: 1.25rem;
+  letter-spacing: .0625rem;
 }
 
 .lilac-text{
   color:#AF7Ad5;
 }
 
+/* EDUCACION */
+
 .edu-custom{
   background-color: #101018;
 }
+
+/* EXPERIENCIA */
+
+.exp-custom{
+
+  
+}
+
+
+/* FOOTER */
 
 footer{
   background-color: #101018;
