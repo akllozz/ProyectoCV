@@ -106,15 +106,24 @@ h5{
 h3{
   margin: 0;
 }
+
 /* EDUCACION */
 
+.contain{
+  width: 80%;
+}
 
 /* EXPERIENCIA */
 
 .exp-custom{
   background-color: #101018;
-
 }
+
+.carrosize{
+  width: 31.25rem;
+}
+
+
 
 
 /* FOOTER */
@@ -124,6 +133,7 @@ footer{
   height: 5rem;
 }
 
+ /* PORTAFOLIO */
 
 .containtb{
   padding-top: 8rem;
@@ -145,3 +155,28 @@ footer{
   border: 1px solid #AF7Ad5;
   background-color: #101018;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  }
+
+.card{
+  background-color: #171720;
+  color: #AF7Ad5;
+  font-weight: 600;
+  letter-spacing: .0625rem;
+}
+
+
+.btn-outline-secondary {
+  border-color: #AF7Ad5;
+  color: #e6e6fa;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #101018;
+  border-color: #AF7Ad5;
+}
+
