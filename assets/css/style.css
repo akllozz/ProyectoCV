@@ -116,3 +116,14 @@ footer{
   color: #AF7Ad5;
   height: 5rem;
 }
+
+.tabla{
+    border: .0625rem solid #AF7Ad5;
+    background-color: #101018;
+    margin: auto;
+}
+
+.tabla tr, th {
+  border: 1px solid #AF7Ad5;
+  background-color: #101018;
+}
