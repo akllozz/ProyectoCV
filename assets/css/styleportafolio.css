@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+a{
+  text-decoration: none;
+  color: #AF7Ad5;
+}
+body {
+  background-color: #13131a;
+  color: #e6e6fa;
+  font-family: 'Dosis', 'Arial', 'Helvetica';
+}
+
+span{
+  color:#AF7Ad5;
+}
+
+/* NAV BAR */
+
+.navbar {
+  height: 5rem;
+  background-color: #101018;
+  font-size: 1.25rem;
+}
+
+.navbar-brand{
+font-size: 2rem;
+font-weight: 500;
+margin-left: 2rem;
+}
+
+.navbar-nav{
+  display: flex;
+  gap: 1.5rem;
+  border-right: 1px solid #000;
+  color: #e6e6fa;
+}
+
+.navbar-collapse{
+display: flex;
+gap: 1.25rem;
+background-color: #101018;
+padding: 1rem;
+}
+
+.btn-port{
+margin-right: 2rem;
+font-size: 1.25rem;
+}
+
+.btn-outline-light {
+border-color: #AF7Ad5;
+color: #e6e6fa;
+}
+
+.btn-outline-light:hover {
+background-color: #171720;
+border-color: #AF7Ad5;
+}
+
+
+.containtb{
+    padding-top: 8rem;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .foot2{
+    background-color: #101018;
+  }
+  
+  .tabla{
+      border: .0625rem solid #AF7Ad5;
+      background-color: #101018;
+      margin: auto;
+  }
+  
+  .tabla tr, th, td{
+    border: 1px solid #AF7Ad5;
+    background-color: #101018;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    }
+  
+  .card{
+    background-color: #171720;
+    color: #AF7Ad5;
+    font-weight: 600;
+    letter-spacing: .0625rem;
+  }
+  
+  
+  .btn-outline-secondary {
+    border-color: #AF7Ad5;
+    color: #e6e6fa;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #101018;
+    border-color: #AF7Ad5;
+  }
